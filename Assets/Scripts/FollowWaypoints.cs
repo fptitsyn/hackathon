@@ -20,5 +20,6 @@ public class FollowWaypoints : MonoBehaviour{
         }
         this.transform.LookAt(waypoints[currentWaypoint].transform);
         this.transform.Translate(0, 0, enemy.speed * Time.deltaTime);
+        this.transform.eulerAngles = new Vector3(0, this.transform.eulerAngles.y, 0);
     }
 }
