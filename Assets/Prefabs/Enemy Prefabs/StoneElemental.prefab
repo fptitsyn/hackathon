@@ -449,6 +449,7 @@ MonoBehaviour:
   speed: 2
   cost: 50
   isFly: 0
+  attack: 1
 --- !u!114 &2885141735440102798
 MonoBehaviour:
   m_ObjectHideFlags: 0
