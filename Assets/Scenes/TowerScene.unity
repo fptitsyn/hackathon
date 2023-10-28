@@ -307,6 +307,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1180763948513124932, guid: 01b2b45e61d653b4eb24fda29809897f, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1180763948513124932, guid: 01b2b45e61d653b4eb24fda29809897f, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1242175681
+      objectReference: {fileID: 0}
     - target: {fileID: 2038205949700947114, guid: 01b2b45e61d653b4eb24fda29809897f, type: 3}
       propertyPath: m_Name
       value: Tower
