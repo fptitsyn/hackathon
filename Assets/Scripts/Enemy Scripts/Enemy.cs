@@ -8,6 +8,7 @@ public class Enemy : MonoBehaviour{
     [SerializeField] public float speed;
     [SerializeField] public int cost;
     [SerializeField] public bool isFly = false;
+    [SerializeField] public int attack = 1;
 
     private void Start(){
         currentHP = maxHP;
