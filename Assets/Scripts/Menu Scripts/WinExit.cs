@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class GameOverExit : MonoBehaviour{
+public class WinExit : MonoBehaviour{
     public void ExitMenu(){
         SceneManager.LoadScene(0);
     }
