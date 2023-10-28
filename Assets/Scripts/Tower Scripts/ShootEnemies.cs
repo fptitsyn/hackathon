@@ -11,6 +11,13 @@ public class ShootEnemies : MonoBehaviour
     private float lastShotTime;
     private TowerData _towerData;
 
+    public AudioSource testSound;
+
+    public void ShootSound()
+    {
+        testSound.Play();
+    }
+
     private void Start()
     {
         enemiesInRange = new List<GameObject>();
@@ -63,8 +70,10 @@ public class ShootEnemies : MonoBehaviour
         bulletComp.target = target.gameObject;
         bulletComp.startPosition = startPos;
         bulletComp.targetPosition = targetPos;
-        
+
         // Audio and animation
+
+        ShootSound();
     }
 
     private void OnTriggerEnter2D(Collider2D other)
