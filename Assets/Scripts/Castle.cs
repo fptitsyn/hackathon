@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Castle : MonoBehaviour{
     [SerializeField] public int hp = 5;
@@ -9,5 +10,7 @@ public class Castle : MonoBehaviour{
 
     private void Update(){
         textValueHP.text = hp.ToString();
+        if (hp <= 0)
+            SceneManager.LoadScene(3);
     }
 }
