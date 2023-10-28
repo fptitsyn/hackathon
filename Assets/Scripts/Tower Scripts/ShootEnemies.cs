@@ -8,13 +8,14 @@ public class ShootEnemies : MonoBehaviour
 {
     public List<GameObject> enemiesInRange;
 
-    public GameObject bullet;
     private float lastShotTime;
+    private TowerData _towerData;
 
     private void Start()
     {
         enemiesInRange = new List<GameObject>();
-        lastShotTime = Time.time;
+        lastShotTime = -3;
+        _towerData = gameObject.GetComponentInChildren<TowerData>();
     }
 
     private void Update()
@@ -27,7 +28,7 @@ public class ShootEnemies : MonoBehaviour
 
         if (target != null)
         {
-            if (Time.time - lastShotTime > 1)
+            if (Time.time - lastShotTime > _towerData.CurrentType.fireRate)
             {
                 Shoot(target.GetComponent<Collider2D>());
                 lastShotTime = Time.time;
@@ -48,6 +49,8 @@ public class ShootEnemies : MonoBehaviour
 
     void Shoot(Collider2D target)
     {
+        GameObject bullet = _towerData.CurrentType.bullet;
+        
         Vector3 startPos = gameObject.transform.position;
         Vector3 targetPos = target.transform.position;
         var position = bullet.transform.position;
@@ -60,6 +63,8 @@ public class ShootEnemies : MonoBehaviour
         bulletComp.target = target.gameObject;
         bulletComp.startPosition = startPos;
         bulletComp.targetPosition = targetPos;
+        
+        // Audio and animation
     }
 
     private void OnTriggerEnter2D(Collider2D other)
