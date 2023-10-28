@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Menu/Shop.unity
     guid: facbad159463e934a812c306e266d312
+  - enabled: 1
+    path: Assets/Scenes/FirstLevelScene1.unity
+    guid: 48cea4d573cd000468200cb1ff639084
   m_configObjects: {}

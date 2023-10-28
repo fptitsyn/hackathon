@@ -29,4 +29,9 @@ public class OptionsMenuButton : MonoBehaviour
     {
         SceneManager.LoadScene(6);
     }
+
+    public void SceneFirst()
+    {
+        SceneManager.LoadScene(7);
+    }
 }

@@ -1053,9 +1053,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1908560678}
-        m_TargetAssemblyTypeName: LevelsMenu, Assembly-CSharp
-        m_MethodName: PlayGame
+      - m_Target: {fileID: 127272042}
+        m_TargetAssemblyTypeName: OptionsMenuButton, Assembly-CSharp
+        m_MethodName: SceneFirst
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1120,9 +1120,9 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1629435099}
+        - m_Target: {fileID: 127272041}
           m_TargetAssemblyTypeName: MainMenuButtons, Assembly-CSharp
-          m_MethodName: playSecondaryButton
+          m_MethodName: 
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
