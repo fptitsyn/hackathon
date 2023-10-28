@@ -236,10 +236,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: -4617820587005737977, guid: aaef39acd4061944fbdb958d0469665f, type: 3}
-      propertyPath: speed
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 1765745904931832998, guid: aaef39acd4061944fbdb958d0469665f, type: 3}
       propertyPath: castle
       value: 
@@ -306,15 +302,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6750198608875145476, guid: aaef39acd4061944fbdb958d0469665f, type: 3}
       propertyPath: m_Name
-      value: Zombi
+      value: Zombie
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 6750198608875145476, guid: aaef39acd4061944fbdb958d0469665f, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 295732202}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aaef39acd4061944fbdb958d0469665f, type: 3}
 --- !u!1001 &229216661
 PrefabInstance:
@@ -478,23 +471,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &295732196 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6750198608875145476, guid: aaef39acd4061944fbdb958d0469665f, type: 3}
-  m_PrefabInstance: {fileID: 55127912}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &295732202
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 295732196}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 65eed408bf857f640b88108f90671b59, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &385032209
 GameObject:
   m_ObjectHideFlags: 0
@@ -943,23 +919,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd2b327662c29b848a8571110dbfc287, type: 3}
---- !u!1 &1130391086 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1760738529077102023, guid: 34e63665479a3bb4ab5f8e481d16277d, type: 3}
-  m_PrefabInstance: {fileID: 1769906882}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1130391092
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1130391086}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 65eed408bf857f640b88108f90671b59, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1193461366
 GameObject:
   m_ObjectHideFlags: 0
@@ -1804,10 +1763,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Griffin
       objectReference: {fileID: 0}
-    - target: {fileID: 3087251486303273588, guid: c7292096eae913a41a2497f51118dc72, type: 3}
-      propertyPath: speed
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 3372936436233800398, guid: c7292096eae913a41a2497f51118dc72, type: 3}
       propertyPath: m_LocalPosition.x
       value: -7.39
@@ -2011,10 +1966,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: -6092137980363749079, guid: 34e63665479a3bb4ab5f8e481d16277d, type: 3}
-      propertyPath: speed
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 212253396382326934, guid: 34e63665479a3bb4ab5f8e481d16277d, type: 3}
       propertyPath: castle
       value: 
@@ -2082,10 +2033,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 1760738529077102023, guid: 34e63665479a3bb4ab5f8e481d16277d, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1130391092}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 34e63665479a3bb4ab5f8e481d16277d, type: 3}
 --- !u!1001 &1905385200
 PrefabInstance:
@@ -2172,10 +2120,6 @@ PrefabInstance:
       propertyPath: waypoints.Array.data[3]
       value: 
       objectReference: {fileID: 51600820}
-    - target: {fileID: 1849935516506430546, guid: d31cdee037b532c4f9f5ac1672a184cd, type: 3}
-      propertyPath: speed
-      value: 5
-      objectReference: {fileID: 0}
     - target: {fileID: 3999315204865388136, guid: d31cdee037b532c4f9f5ac1672a184cd, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.41
@@ -2820,7 +2764,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 5
-      m_TileSpriteIndex: 15
+      m_TileSpriteIndex: 20
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -3050,7 +2994,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 9
-      m_TileSpriteIndex: 9
+      m_TileSpriteIndex: 19
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -8185,8 +8129,8 @@ Tilemap:
     m_Data: {fileID: -1902404288, guid: 0477221d97eaa6d4ca975d6df3fda293, type: 3}
   - m_RefCount: 5
     m_Data: {fileID: -2125167714, guid: 0477221d97eaa6d4ca975d6df3fda293, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: 844432533, guid: 0477221d97eaa6d4ca975d6df3fda293, type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 7
     m_Data: {fileID: 1783161787, guid: 0477221d97eaa6d4ca975d6df3fda293, type: 3}
   - m_RefCount: 7
@@ -8197,18 +8141,18 @@ Tilemap:
     m_Data: {fileID: 2011184887, guid: 0477221d97eaa6d4ca975d6df3fda293, type: 3}
   - m_RefCount: 7
     m_Data: {fileID: 1182333237, guid: 0477221d97eaa6d4ca975d6df3fda293, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: -1868487901, guid: 0477221d97eaa6d4ca975d6df3fda293, type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 9
     m_Data: {fileID: -497431737, guid: 0477221d97eaa6d4ca975d6df3fda293, type: 3}
   - m_RefCount: 0
     m_Data: {fileID: 0}
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
+  - m_RefCount: 1
+    m_Data: {fileID: 844432533, guid: 0477221d97eaa6d4ca975d6df3fda293, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: -1868487901, guid: 0477221d97eaa6d4ca975d6df3fda293, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: 695838904, guid: 27436c23720c4bc4a954b74916a3687f, type: 3}
   - m_RefCount: 1
