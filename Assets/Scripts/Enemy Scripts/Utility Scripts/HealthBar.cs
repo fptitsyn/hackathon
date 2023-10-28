@@ -3,22 +3,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class HealthBar : MonoBehaviour
-{
-    public float maxHealth = 100;
-    public float currentHealth = 100;
+public class HealthBar : MonoBehaviour{
+    [SerializeField] public Enemy enemy;
     private float originalScale;
 
-    private void Start()
-    {
+    private void Start(){
         originalScale = gameObject.transform.localScale.x;
     }
 
-    private void Update()
-    {
+    private void Update(){
         var o = gameObject;
         Vector3 tmpScale = o.transform.localScale;
-        tmpScale.x = currentHealth / maxHealth * originalScale;
+        tmpScale.x = enemy.currentHP / enemy.maxHP * originalScale;
         o.transform.localScale = tmpScale;
     }
 }

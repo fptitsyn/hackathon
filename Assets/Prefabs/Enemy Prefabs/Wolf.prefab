@@ -52,7 +52,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c50000196445ad84c9bf041f0e566e7a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hp: 100
+  maxHP: 100
+  currentHP: 100
   speed: 10
   cost: 20
   isFly: 0
@@ -274,8 +275,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e9260c766d16444fb226e0149f11b73, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 100
-  currentHealth: 100
+  enemy: {fileID: -6092137980363749079}
 --- !u!1 &4955608485835923966
 GameObject:
   m_ObjectHideFlags: 0

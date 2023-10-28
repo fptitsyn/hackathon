@@ -97,8 +97,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e9260c766d16444fb226e0149f11b73, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 100
-  currentHealth: 100
+  enemy: {fileID: 3087251486303273588}
 --- !u!1 &1055392882360927146
 GameObject:
   m_ObjectHideFlags: 0
@@ -402,8 +401,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3372936436233800398}
-  - component: {fileID: -3033572716658129974}
+  - component: {fileID: 3087251486303273588}
   - component: {fileID: -548122788693555818}
+  - component: {fileID: 2073000760266674475}
   m_Layer: 0
   m_Name: Griffin
   m_TagString: Untagged
@@ -436,7 +436,7 @@ Transform:
   - {fileID: 4669260167908904135}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &-3033572716658129974
+--- !u!114 &3087251486303273588
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -448,7 +448,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c50000196445ad84c9bf041f0e566e7a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hp: 500
+  maxHP: 500
+  currentHP: 500
   speed: 5
   cost: 100
   isFly: 1
@@ -467,7 +468,19 @@ MonoBehaviour:
   waypoints: []
   distance: 0.01
   castle: {fileID: 0}
-  enemy: {fileID: -3033572716658129974}
+  enemy: {fileID: 3087251486303273588}
+--- !u!114 &2073000760266674475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2459407761442884859}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65eed408bf857f640b88108f90671b59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3116818854181448179
 GameObject:
   m_ObjectHideFlags: 0

@@ -31,9 +31,9 @@ public class BulletBehaviour : MonoBehaviour
             {
                 Transform healthBarTransform = target.transform.Find("HealthBar");
                 HealthBar healthBar = healthBarTransform.gameObject.GetComponent<HealthBar>();
-                healthBar.currentHealth -= Mathf.Max(damage, 0);
+                healthBar.enemy.currentHP -= Mathf.Max(damage, 0);
 
-                if (healthBar.currentHealth <= 0)
+                if (healthBar.enemy.currentHP <= 0)
                 {
                     Destroy(target);
                 }
