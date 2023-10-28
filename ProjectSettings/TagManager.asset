@@ -48,3 +48,6 @@ TagManager:
   - name: Enemy
     uniqueID: 3570046283
     locked: 0
+  - name: Sprites
+    uniqueID: 3930818721
+    locked: 0
