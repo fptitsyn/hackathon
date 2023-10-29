@@ -850,6 +850,28 @@ MonoBehaviour:
     mipBias: 0
     varianceClampScale: 0.9
     contrastAdaptiveSharpening: 0
+--- !u!114 &951893623 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -4595407294191828433, guid: ff367e4afdd400d4aafbafba3ef6ce1d, type: 3}
+  m_PrefabInstance: {fileID: 334169906}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de4c1f88ace2eb6449ed4b8413bd3716, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1056600249 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -4595407294191828433, guid: ff367e4afdd400d4aafbafba3ef6ce1d, type: 3}
+  m_PrefabInstance: {fileID: 1753386997}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de4c1f88ace2eb6449ed4b8413bd3716, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1193461366
 GameObject:
   m_ObjectHideFlags: 0
@@ -1764,9 +1786,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1056600249}
         m_TargetAssemblyTypeName: SpawnEnemy, Assembly-CSharp
-        m_MethodName: 
+        m_MethodName: MoveEnemies
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1776,9 +1798,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 951893623}
         m_TargetAssemblyTypeName: SpawnEnemy, Assembly-CSharp
-        m_MethodName: 
+        m_MethodName: MoveEnemies
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1788,9 +1810,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1867781425}
         m_TargetAssemblyTypeName: SpawnEnemy, Assembly-CSharp
-        m_MethodName: 
+        m_MethodName: MoveEnemies
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2219,6 +2241,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ff367e4afdd400d4aafbafba3ef6ce1d, type: 3}
+--- !u!114 &1867781425 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -4595407294191828433, guid: ff367e4afdd400d4aafbafba3ef6ce1d, type: 3}
+  m_PrefabInstance: {fileID: 118907075}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de4c1f88ace2eb6449ed4b8413bd3716, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1905385200
 PrefabInstance:
   m_ObjectHideFlags: 0
