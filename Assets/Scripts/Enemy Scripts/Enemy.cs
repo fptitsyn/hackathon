@@ -12,6 +12,23 @@ public class Enemy : MonoBehaviour{
 
     private void Start(){
         currentHP = maxHP;
+        
+        if (PlayerPrefs.HasKey("FirstStart") == false)
+        {
+            PlayerPrefs.DeleteAll();
+            PlayerPrefs.SetInt("FirstStart", 1);
+        }
+        
+        if (PlayerPrefs.HasKey("maxZombieHP") == false)
+        {
+            PlayerPrefs.SetInt("maxZombieHP", 100);
+        }
+        
+        if (PlayerPrefs.HasKey("cost") == false)
+        {
+            PlayerPrefs.SetInt("cost", 5);
+        }
+        
         StaticUpdate();
     }
 
