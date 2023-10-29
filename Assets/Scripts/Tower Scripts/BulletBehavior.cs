@@ -35,7 +35,8 @@ public class BulletBehaviour : MonoBehaviour
 
                 if (gameObject.tag.Equals("Ice"))
                 {
-                    
+                    var currentSpeed = healthBar.enemy.speed;
+                    healthBar.enemy.speed -= currentSpeed / 2;
                 }
                 if (healthBar.enemy.currentHP <= 0)
                 {

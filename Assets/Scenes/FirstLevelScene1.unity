@@ -260,22 +260,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7395398952155401612, guid: cdc60e2b3328bc54a9a5c52cc1ff6580, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: bcc77f0e5e293da4f9100a987379da48, type: 3}
-    - target: {fileID: 7395398952155401612, guid: cdc60e2b3328bc54a9a5c52cc1ff6580, type: 3}
-      propertyPath: m_Color.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7395398952155401612, guid: cdc60e2b3328bc54a9a5c52cc1ff6580, type: 3}
-      propertyPath: m_Color.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7395398952155401612, guid: cdc60e2b3328bc54a9a5c52cc1ff6580, type: 3}
-      propertyPath: m_Color.r
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -616,10 +600,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Crossbow Tower
       objectReference: {fileID: 0}
-    - target: {fileID: 7336720533847068529, guid: ed3fa81acaf03de4498707708e32f346, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 5500822308601662141, guid: 449f3858974526440a598e03c3a19bc6, type: 3}
     - target: {fileID: 9055287128787196439, guid: ed3fa81acaf03de4498707708e32f346, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.2
@@ -1361,10 +1341,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tesla Tower
       objectReference: {fileID: 0}
-    - target: {fileID: 4994241387261921852, guid: 03a13df847d49724bb9bc39d069af0d9, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 82453899a74163f4897e18b16ef159ba, type: 3}
     - target: {fileID: 7219396668483654935, guid: 03a13df847d49724bb9bc39d069af0d9, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.51
@@ -1565,63 +1541,6 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 8303414940823593754, guid: 2eff42941711d69468ffd96878c03cf8, type: 3}
   m_PrefabInstance: {fileID: 2472367184907101838}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &1582281284
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 299322817715322243, guid: 5c24f1106047e14479cbb662ee3d22d8, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -7.468812
-      objectReference: {fileID: 0}
-    - target: {fileID: 299322817715322243, guid: 5c24f1106047e14479cbb662ee3d22d8, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.445071
-      objectReference: {fileID: 0}
-    - target: {fileID: 299322817715322243, guid: 5c24f1106047e14479cbb662ee3d22d8, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 299322817715322243, guid: 5c24f1106047e14479cbb662ee3d22d8, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 299322817715322243, guid: 5c24f1106047e14479cbb662ee3d22d8, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 299322817715322243, guid: 5c24f1106047e14479cbb662ee3d22d8, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 299322817715322243, guid: 5c24f1106047e14479cbb662ee3d22d8, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 299322817715322243, guid: 5c24f1106047e14479cbb662ee3d22d8, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 299322817715322243, guid: 5c24f1106047e14479cbb662ee3d22d8, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 299322817715322243, guid: 5c24f1106047e14479cbb662ee3d22d8, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1155723865083734552, guid: 5c24f1106047e14479cbb662ee3d22d8, type: 3}
-      propertyPath: m_Name
-      value: Slingshot Tower
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 5c24f1106047e14479cbb662ee3d22d8, type: 3}
 --- !u!1 &1601553609
 GameObject:
   m_ObjectHideFlags: 0
@@ -2336,10 +2255,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7183217204221242783, guid: a567a87fd5be1ee45af78f9809af7bb2, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 98a573cd9aefadd45b81a5dc2ee06496, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14341,7 +14256,6 @@ SceneRoots:
   - {fileID: 1905385200}
   - {fileID: 420147357}
   - {fileID: 229216661}
-  - {fileID: 1582281284}
   - {fileID: 1384599186}
   - {fileID: 317538639}
   - {fileID: 2019953921}

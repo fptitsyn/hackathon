@@ -13,10 +13,6 @@ public class Enemy : MonoBehaviour{
     
     private void Start(){
         currentHP = maxHP;
-<<<<<<< Updated upstream
-=======
-        
->>>>>>> Stashed changes
         StaticUpdate();
         StaticUpdateWolf();
         StaticUpdateGolem();
