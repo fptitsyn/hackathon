@@ -455,6 +455,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: SpawnCircleFirstLevel3
       objectReference: {fileID: 0}
+    - target: {fileID: 6128294761576672252, guid: ff367e4afdd400d4aafbafba3ef6ce1d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6128294761576672252, guid: ff367e4afdd400d4aafbafba3ef6ce1d, type: 3}
+      propertyPath: m_TagString
+      value: Spawner
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1233,6 +1241,10 @@ PrefabInstance:
     - target: {fileID: 6128294761576672252, guid: ff367e4afdd400d4aafbafba3ef6ce1d, type: 3}
       propertyPath: m_Name
       value: SpawnCircleFirstLevel2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6128294761576672252, guid: ff367e4afdd400d4aafbafba3ef6ce1d, type: 3}
+      propertyPath: m_TagString
+      value: Spawner
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6064,13 +6076,29 @@ PrefabInstance:
       propertyPath: waypoints.Array.data[4]
       value: 
       objectReference: {fileID: 2032443648}
+    - target: {fileID: 696372617920291331, guid: ff367e4afdd400d4aafbafba3ef6ce1d, type: 3}
+      propertyPath: m_SortingLayer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 696372617920291331, guid: ff367e4afdd400d4aafbafba3ef6ce1d, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -364148575
+      objectReference: {fileID: 0}
+    - target: {fileID: 4281984752860801438, guid: ff367e4afdd400d4aafbafba3ef6ce1d, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.77773035
+      objectReference: {fileID: 0}
+    - target: {fileID: 4281984752860801438, guid: ff367e4afdd400d4aafbafba3ef6ce1d, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.79796636
+      objectReference: {fileID: 0}
     - target: {fileID: 4281984752860801438, guid: ff367e4afdd400d4aafbafba3ef6ce1d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7.488749
+      value: -7.4776
       objectReference: {fileID: 0}
     - target: {fileID: 4281984752860801438, guid: ff367e4afdd400d4aafbafba3ef6ce1d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 11.7507925
+      value: 11.7518
       objectReference: {fileID: 0}
     - target: {fileID: 4281984752860801438, guid: ff367e4afdd400d4aafbafba3ef6ce1d, type: 3}
       propertyPath: m_LocalPosition.z
@@ -6108,8 +6136,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: SpawnCircleFirstLevel1
       objectReference: {fileID: 0}
+    - target: {fileID: 6128294761576672252, guid: ff367e4afdd400d4aafbafba3ef6ce1d, type: 3}
+      propertyPath: m_TagString
+      value: Spawner
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 8025408925741544249, guid: ff367e4afdd400d4aafbafba3ef6ce1d, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ff367e4afdd400d4aafbafba3ef6ce1d, type: 3}
@@ -19022,12 +19055,12 @@ SceneRoots:
   - {fileID: 420147357}
   - {fileID: 229216661}
   - {fileID: 1384599186}
+  - {fileID: 678827598}
   - {fileID: 317538639}
   - {fileID: 2019953921}
   - {fileID: 1753386997}
   - {fileID: 334169906}
   - {fileID: 118907075}
-  - {fileID: 678827598}
   - {fileID: 3129213}
   - {fileID: 280019110}
   - {fileID: 1526930344}
