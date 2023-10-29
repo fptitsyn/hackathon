@@ -13,14 +13,16 @@ public class LevelUpCounter : MonoBehaviour
 
     public void ProductUpgrade()
     {
-       
         int count = PlayerPrefs.GetInt(product);
         PlayerPrefs.SetInt(product, count + 1);
-
         
         PlayerPrefs.SetInt(product2, maxZombieHP + 20);
         maxZombieHP = PlayerPrefs.GetInt(product2);
+<<<<<<< HEAD
         int cost = PlayerPrefs.GetInt(product3);
+=======
+        
+>>>>>>> parent of 0db1966 (Upgrade)
         PlayerPrefs.SetInt(product3, cost + 1);
         cost = PlayerPrefs.GetInt(product3);
         
