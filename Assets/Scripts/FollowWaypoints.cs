@@ -8,7 +8,7 @@ public class FollowWaypoints : MonoBehaviour
     [SerializeField] public Castle castle;
     [SerializeField] public Enemy enemy;
 
-    void Update()
+    void LateUpdate()
     {
         if (Vector2.Distance(transform.position, waypoints[_currentWaypoint].transform.position) < distance)
         {
