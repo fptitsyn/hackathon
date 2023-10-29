@@ -124,8 +124,8 @@ Transform:
   m_GameObject: {fileID: 1692476969150373601}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.22, y: 0.79, z: 0}
-  m_LocalScale: {x: 2.003, y: 1.814, z: 1}
+  m_LocalPosition: {x: -0.101, y: 0.68, z: 0}
+  m_LocalScale: {x: 2.3322933, y: 2.2839348, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3999315204865388136}
@@ -297,7 +297,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.26, y: 0.26, z: 0.26}
+  m_LocalScale: {x: 0.6, y: 0.6, z: 0.6}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 7347389598731434034}
@@ -319,7 +319,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHP: 50
   currentHP: 50
-  speed: 5
+  speed: 3
   cost: 20
   isFly: 0
   attack: 1
@@ -340,9 +340,10 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
-  distance: 0.01
   castle: {fileID: 0}
+  distance: 0.01
   enemy: {fileID: 1849935516506430546}
+  settings: {fileID: 0}
 --- !u!114 &-8933541374764465299
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -213,7 +213,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
+  m_LocalScale: {x: 0.6, y: 0.6, z: 0.6}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 6248193179545611548}
@@ -257,9 +257,10 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
-  distance: 0.01
   castle: {fileID: 0}
+  distance: 0.01
   enemy: {fileID: 3087251486303273588}
+  settings: {fileID: 0}
 --- !u!114 &2073000760266674475
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -370,8 +371,8 @@ Transform:
   m_GameObject: {fileID: 3277427152228944678}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.36, y: 0.99, z: 0}
-  m_LocalScale: {x: 1.265, y: 1.349, z: 1}
+  m_LocalPosition: {x: -0.429, y: 1.292, z: 0}
+  m_LocalScale: {x: 1.3004199, y: 1.5135779, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3372936436233800398}
