@@ -16,6 +16,6 @@ public class Enemy : MonoBehaviour{
 
     void Update(){
         if (currentHP <= 0)
-            Destroy(this.gameObject);
+            Destroy(gameObject);
     }
 }

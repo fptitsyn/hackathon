@@ -121,7 +121,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 8663851074141737771}
         m_TargetAssemblyTypeName: TabButton, Assembly-CSharp
         m_MethodName: ChangeCurrentEnemy
         m_Mode: 1
@@ -145,4 +145,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c75b475af710114f96f2bd2b9ae2a99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemy: {fileID: 0}
+  enemy: {fileID: -8153784511689759302, guid: dd2b327662c29b848a8571110dbfc287, type: 3}

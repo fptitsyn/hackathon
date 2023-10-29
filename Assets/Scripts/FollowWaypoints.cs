@@ -10,9 +10,12 @@ public class FollowWaypoints : MonoBehaviour{
     [SerializeField] public Castle castle;
     [SerializeField] public Enemy enemy;
 
-    void Update(){
-        if (Vector2.Distance(this.transform.position, waypoints[currentWaypoint].transform.position) < distance)
+    void Update()
+    {
+        if (Vector2.Distance(this.transform.position, waypoints[currentWaypoint].transform.position) < distance) 
+        {
             currentWaypoint++;
+        }
         if (currentWaypoint >= waypoints.Length){
             castle.hp -= enemy.attack;
             Destroy(this.gameObject);
