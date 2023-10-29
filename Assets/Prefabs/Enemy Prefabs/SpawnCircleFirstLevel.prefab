@@ -120,11 +120,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de4c1f88ace2eb6449ed4b8413bd3716, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waypoints: []
+  waypoints:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   castle: {fileID: 0}
-  enemies:
-  - {fileID: 3087251486303273588, guid: c7292096eae913a41a2497f51118dc72, type: 3}
-  - {fileID: 1849935516506430546, guid: d31cdee037b532c4f9f5ac1672a184cd, type: 3}
-  - {fileID: -8153784511689759302, guid: dd2b327662c29b848a8571110dbfc287, type: 3}
-  - {fileID: -6092137980363749079, guid: 34e63665479a3bb4ab5f8e481d16277d, type: 3}
-  - {fileID: -4617820587005737977, guid: aaef39acd4061944fbdb958d0469665f, type: 3}
