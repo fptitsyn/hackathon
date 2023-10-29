@@ -402,6 +402,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1814536986449914908}
   - component: {fileID: -8153784511689759302}
+  - component: {fileID: 2885141735440102798}
+  - component: {fileID: -7411754424337061558}
   - component: {fileID: 7596933590999722090}
   - component: {fileID: 520264731971478155}
   m_Layer: 0
@@ -448,6 +450,39 @@ MonoBehaviour:
   cost: 50
   isFly: 0
   attack: 1
+--- !u!114 &2885141735440102798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8211869276013564490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edb97ac166013de46b338ad93eee0a24, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waypoints:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  distance: 0.01
+  castle: {fileID: 0}
+  enemy: {fileID: -8153784511689759302}
+--- !u!114 &-7411754424337061558
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8211869276013564490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65eed408bf857f640b88108f90671b59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!50 &7596933590999722090
 Rigidbody2D:
   serializedVersion: 4

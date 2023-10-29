@@ -6,26 +6,28 @@ using UnityEngine;
 
 public class SpawnEnemy : MonoBehaviour{
     public GameObject[] waypoints;
-    [SerializeField] private Enemy[] enemies;
-    [SerializeField] private GameObject settings;
+    [SerializeField] Castle castle;
+    [SerializeField] Enemy[] enemies;
 
-    private void OnMouseDown() => Spawn();
+    private void OnMouseDown()
+    {
+        Spawn();
+    }
 
     public void Spawn(){
-        settings.GetComponent<Level1Script>().enemies = new Enemy[settings.GetComponent<Level1Script>().enemies.Length + enemies.Length];
-        for (int i = 0; i < enemies.Length; i++){
-            Enemy enemy = Instantiate(enemies[i], this.transform.position, this.transform.rotation);
-            enemy.AddComponent<FollowWaypoints>();
-            enemy.AddComponent<EnemyDestructionDelegate>();
-            enemy.GetComponent<FollowWaypoints>().waypoints = waypoints;
-            enemy.GetComponent<FollowWaypoints>().settings = settings;
-            settings.GetComponent<Level1Script>().enemies[i] = enemy;
+        /*
+        for(int i = 0;i < enemies.Length; i++){
+            FollowWaypoints followWaypoint = new FollowWaypoints();
+            followWaypoint.enemy = Instantiate(enemies[i], this.transform.position, this.transform.rotation);
+            followWaypoint.enemy.GetComponent<FollowWaypoints>().waypoints = waypoints;
+            followWaypoint.enemy.GetComponent<FollowWaypoints>().castle = castle;
         }
-        //TabPanel tab = FindObjectOfType<TabPanel>();
-        //Enemy enemy = Instantiate(tab.currentEnemySelected, transform.position, transform.rotation);
-        //enemy.AddComponent<FollowWaypoints>();
-        //enemy.AddComponent<EnemyDestructionDelegate>();
-        //enemy.GetComponent<FollowWaypoints>().waypoints = waypoints;
-        //enemy.GetComponent<FollowWaypoints>().settings = settings;
+        */
+        TabPanel tab = FindObjectOfType<TabPanel>();
+        Enemy enemyToSpawn = tab.currentEnemySelected;
+        FollowWaypoints followWaypoint = new FollowWaypoints();
+        followWaypoint.enemy = Instantiate(enemyToSpawn, transform.position, transform.rotation);
+        followWaypoint.enemy.GetComponent<FollowWaypoints>().waypoints = waypoints;
+        followWaypoint.enemy.GetComponent<FollowWaypoints>().castle = castle;
     }
 }

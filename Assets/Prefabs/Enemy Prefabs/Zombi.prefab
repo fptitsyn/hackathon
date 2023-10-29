@@ -612,8 +612,10 @@ GameObject:
   m_Component:
   - component: {fileID: 3733800633413961002}
   - component: {fileID: -4617820587005737977}
+  - component: {fileID: 1765745904931832998}
   - component: {fileID: 4124097953496083999}
   - component: {fileID: 3454283460274833016}
+  - component: {fileID: 302036317177615068}
   m_Layer: 0
   m_Name: Zombi
   m_TagString: Enemy
@@ -662,6 +664,27 @@ MonoBehaviour:
   cost: 5
   isFly: 0
   attack: 1
+--- !u!114 &1765745904931832998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6750198608875145476}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edb97ac166013de46b338ad93eee0a24, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waypoints:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  distance: 0.01
+  castle: {fileID: 0}
+  enemy: {fileID: -4617820587005737977}
 --- !u!50 &4124097953496083999
 Rigidbody2D:
   serializedVersion: 4
@@ -734,6 +757,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &302036317177615068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6750198608875145476}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65eed408bf857f640b88108f90671b59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7863712728399254610
 GameObject:
   m_ObjectHideFlags: 0
