@@ -7,7 +7,7 @@ public class OptionsMenuButton : MonoBehaviour
 {
     public void SceneOptions()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(3);
     }
 
     public void SceneMain()
@@ -17,21 +17,21 @@ public class OptionsMenuButton : MonoBehaviour
 
     public void SceneGameMenu()
     {
-        SceneManager.LoadScene(4);
+        SceneManager.LoadScene(5);
     }
 
     public void SceneLevelsMenu()
     {
-        SceneManager.LoadScene(3);
+        SceneManager.LoadScene(4);
     }
 
     public void SceneShop()
     {
-        SceneManager.LoadScene(5);
+        SceneManager.LoadScene(6);
     }
 
     public void SceneFirst()
     {
-        SceneManager.LoadScene(6);
+        SceneManager.LoadScene(7);
     }
 }
