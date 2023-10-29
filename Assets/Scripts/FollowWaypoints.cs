@@ -1,28 +1,30 @@
-using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 
-public class FollowWaypoints : MonoBehaviour{
+public class FollowWaypoints : MonoBehaviour
+{
     public GameObject[] waypoints;
-    private int currentWaypoint = 0;
+    private int _currentWaypoint;
     [SerializeField] private float distance = 0.01f;
     [SerializeField] public Castle castle;
     [SerializeField] public Enemy enemy;
 
     void Update()
     {
-        if (Vector2.Distance(this.transform.position, waypoints[currentWaypoint].transform.position) < distance) 
+        if (Vector2.Distance(transform.position, waypoints[_currentWaypoint].transform.position) < distance)
         {
-            currentWaypoint++;
+            _currentWaypoint++;
         }
-        if (currentWaypoint >= waypoints.Length){
+
+        if (_currentWaypoint >= waypoints.Length)
+        {
             castle.hp -= enemy.attack;
-            Destroy(this.gameObject);
+            Destroy(gameObject);
             return;
         }
-        this.transform.LookAt(waypoints[currentWaypoint].transform);
-        this.transform.Translate(0, 0, enemy.speed * Time.deltaTime);
-        this.transform.eulerAngles = new Vector3(0, this.transform.eulerAngles.y, 0);
+
+        transform.LookAt(waypoints[_currentWaypoint].transform);
+        Transform transform1;
+        (transform1 = transform).Translate(0, 0, enemy.speed * Time.deltaTime);
+        transform1.eulerAngles = new Vector3(0, transform1.eulerAngles.y, 0);
     }
 }
