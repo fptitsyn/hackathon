@@ -12,10 +12,17 @@ public class Enemy : MonoBehaviour{
 
     private void Start(){
         currentHP = maxHP;
+        StaticUpdate();
     }
 
     void Update(){
         if (currentHP <= 0)
             Destroy(this.gameObject);
+    }
+
+    public void StaticUpdate()
+    {
+        maxHP = PlayerPrefs.GetInt("maxZombieHP");
+        cost = PlayerPrefs.GetInt("cost");
     }
 }
