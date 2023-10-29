@@ -19,17 +19,16 @@ public class SpawnEnemy : MonoBehaviour
     {
         TabPanel tab = FindObjectOfType<TabPanel>();
         Enemy enemyToSpawn = tab.currentEnemySelected;
-        _enemies.Add(enemyToSpawn);
+        Enemy enemy = Instantiate(enemyToSpawn, transform.position, transform.rotation);
+        _enemies.Add(enemy);
     }
 
     public void MoveEnemies()
     {
         foreach (var enemy in _enemies)
         {
-            FollowWaypoints followWaypoint = new FollowWaypoints();
-            followWaypoint.enemy = Instantiate(enemy, transform.position, transform.rotation);
-            followWaypoint.enemy.GetComponent<FollowWaypoints>().waypoints = waypoints;
-            followWaypoint.enemy.GetComponent<FollowWaypoints>().castle = castle;
+            enemy.GetComponent<FollowWaypoints>().waypoints = waypoints;
+            enemy.GetComponent<FollowWaypoints>().castle = castle;
         }
     }
 }
