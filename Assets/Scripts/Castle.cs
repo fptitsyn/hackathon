@@ -10,7 +10,5 @@ public class Castle : MonoBehaviour{
 
     private void Update(){
         textValueHP.text = hp.ToString();
-        if (hp <= 0)
-            SceneManager.LoadScene(2);
     }
 }
