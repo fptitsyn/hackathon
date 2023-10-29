@@ -902,10 +902,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Slingshot Tower
       objectReference: {fileID: 0}
-    - target: {fileID: 1217296770017398232, guid: 5c24f1106047e14479cbb662ee3d22d8, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: ee40ce112aa901b42b275bf6f43bb432, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
