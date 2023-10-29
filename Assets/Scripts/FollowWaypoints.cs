@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class FollowWaypoints : MonoBehaviour
 {
-    public GameObject[] waypoints;
+    public GameObject[] waypoints = new GameObject[5];
     private int _currentWaypoint;
     [SerializeField] private float distance = 0.01f;
     [SerializeField] public Castle castle;

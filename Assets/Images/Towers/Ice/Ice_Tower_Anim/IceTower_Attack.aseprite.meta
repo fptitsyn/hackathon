@@ -1,0 +1,500 @@
+fileFormatVersion: 2
+guid: 9284e2124f749c544abc5f4a0456443c
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: IceTower_Attack_Frame_0
+    originalName: 
+    pivot: {x: 0.5, y: -0.52459013}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 125
+      y: 73
+      width: 28
+      height: 61
+    spriteID: 713e4fc133da57e4d87295b1ab16e498
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 125, y: 73}
+  - name: IceTower_Attack_Frame_1
+    originalName: 
+    pivot: {x: 0.5, y: -0.52459013}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 125
+      y: 142
+      width: 28
+      height: 61
+    spriteID: 843a57c100f789842832d34a44154b49
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 125, y: 142}
+  - name: IceTower_Attack_Frame_2
+    originalName: 
+    pivot: {x: 0.5, y: -0.52459013}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 125
+      y: 4
+      width: 30
+      height: 61
+    spriteID: d424a2d60019130478b07cdb69afd6cb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 125, y: 4}
+  - name: IceTower_Attack_Frame_3
+    originalName: 
+    pivot: {x: 0.5, y: -0.52459013}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 56
+      y: 444
+      width: 34
+      height: 61
+    spriteID: b5ee6fe5ca99fd546a63c4f08a10c907
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 56, y: 444}
+  - name: IceTower_Attack_Frame_4
+    originalName: 
+    pivot: {x: 0.5405406, y: -0.52459013}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 56
+      y: 375
+      width: 37
+      height: 61
+    spriteID: 14c54d371f320ed4f86b713a142c8838
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 56, y: 375}
+  - name: IceTower_Attack_Frame_5
+    originalName: 
+    pivot: {x: 0.5714286, y: -0.52459013}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 56
+      y: 306
+      width: 42
+      height: 61
+    spriteID: 452ac22b25c165c4ba21112fab1f150d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 56, y: 306}
+  - name: IceTower_Attack_Frame_6
+    originalName: 
+    pivot: {x: 0.53488374, y: -0.32857144}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 384
+      width: 43
+      height: 70
+    spriteID: 8bde52951dce0d245ab5ac48ae75821c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 384}
+  - name: IceTower_Attack_Frame_7
+    originalName: 
+    pivot: {x: 0.5227273, y: -0.32857144}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 306
+      width: 44
+      height: 70
+    spriteID: ce3d96d249385ff4ca5ef30e79c8eb31
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 306}
+  - name: IceTower_Attack_Frame_8
+    originalName: 
+    pivot: {x: 0.5132743, y: -0.010869565}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 113
+      height: 92
+    spriteID: 600a3e67a0f2e62438a3ec2e52ffa25e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: IceTower_Attack_Frame_9
+    originalName: 
+    pivot: {x: 0.5263158, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 205
+      width: 95
+      height: 93
+    spriteID: 5d12de9ab687fba47bf9207745ee0028
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 205}
+  - name: IceTower_Attack_Frame_10
+    originalName: 
+    pivot: {x: 0.52884614, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 104
+      width: 104
+      height: 93
+    spriteID: 216d77aa05fb9064d8905fadb625a675
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 104}
+  - name: IceTower_Attack_Frame_11
+    originalName: 
+    pivot: {x: 0.5, y: -0.52459013}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 125
+      y: 211
+      width: 28
+      height: 61
+    spriteID: 388ab87e9b5764d46880dd841d46b3b7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 125, y: 211}
+  - name: IceTower_Attack_Frame_12
+    originalName: 
+    pivot: {x: 0.5, y: -0.52459013}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 125
+      y: 280
+      width: 28
+      height: 61
+    spriteID: b5c17c5923e1998428da6a1cd1c1d80d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 125, y: 280}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 1864617083
+    name: IceTower_Attack
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: IceTower_Attack_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 50
+        y: 32
+        width: 28
+        height: 61
+      spriteId: 713e4fc133da57e4d87295b1ab16e498
+    - name: IceTower_Attack_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 50
+        y: 32
+        width: 28
+        height: 61
+      spriteId: 843a57c100f789842832d34a44154b49
+    - name: IceTower_Attack_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 49
+        y: 32
+        width: 30
+        height: 61
+      spriteId: d424a2d60019130478b07cdb69afd6cb
+    - name: IceTower_Attack_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 47
+        y: 32
+        width: 34
+        height: 61
+      spriteId: b5ee6fe5ca99fd546a63c4f08a10c907
+    - name: IceTower_Attack_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 44
+        y: 32
+        width: 37
+        height: 61
+      spriteId: 14c54d371f320ed4f86b713a142c8838
+    - name: IceTower_Attack_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 40
+        y: 32
+        width: 42
+        height: 61
+      spriteId: 452ac22b25c165c4ba21112fab1f150d
+    - name: IceTower_Attack_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 41
+        y: 23
+        width: 43
+        height: 70
+      spriteId: 8bde52951dce0d245ab5ac48ae75821c
+    - name: IceTower_Attack_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 41
+        y: 23
+        width: 44
+        height: 70
+      spriteId: ce3d96d249385ff4ca5ef30e79c8eb31
+    - name: IceTower_Attack_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 6
+        y: 1
+        width: 113
+        height: 92
+      spriteId: 600a3e67a0f2e62438a3ec2e52ffa25e
+    - name: IceTower_Attack_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 14
+        y: 0
+        width: 95
+        height: 93
+      spriteId: 5d12de9ab687fba47bf9207745ee0028
+    - name: IceTower_Attack_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 9
+        y: 0
+        width: 104
+        height: 93
+      spriteId: 216d77aa05fb9064d8905fadb625a675
+    - name: IceTower_Attack_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 50
+        y: 32
+        width: 28
+        height: 61
+      spriteId: 388ab87e9b5764d46880dd841d46b3b7
+    - name: IceTower_Attack_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 50
+        y: 32
+        width: 28
+        height: 61
+      spriteId: b5c17c5923e1998428da6a1cd1c1d80d
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 128, y: 128}

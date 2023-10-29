@@ -33,6 +33,10 @@ public class BulletBehaviour : MonoBehaviour
                 HealthBar healthBar = healthBarTransform.gameObject.GetComponent<HealthBar>();
                 healthBar.enemy.currentHP -= Mathf.Max(damage, 0);
 
+                if (gameObject.tag.Equals("Ice"))
+                {
+                    
+                }
                 if (healthBar.enemy.currentHP <= 0)
                 {
                     Destroy(target);

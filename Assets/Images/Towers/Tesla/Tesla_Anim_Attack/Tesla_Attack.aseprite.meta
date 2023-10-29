@@ -1,0 +1,780 @@
+fileFormatVersion: 2
+guid: dd8e983b610fe2e41b98abd5811af30b
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Tesla_Attack_Frame_0
+    originalName: 
+    pivot: {x: 0.5, y: -0.094339624}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 44
+      y: 195
+      width: 32
+      height: 53
+    spriteID: bd603ee8b3688bc4eae133e03f94c93d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 44, y: 195}
+  - name: Tesla_Attack_Frame_1
+    originalName: 
+    pivot: {x: 0.5, y: -0.08928572}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 44
+      y: 4
+      width: 32
+      height: 56
+    spriteID: 75edc5ace15b48149b45796d64edd506
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 44, y: 4}
+  - name: Tesla_Attack_Frame_2
+    originalName: 
+    pivot: {x: 0.5, y: -0.090909086}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 44
+      y: 132
+      width: 32
+      height: 55
+    spriteID: a6126fc636e9daa47b67db658130c05e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 44, y: 132}
+  - name: Tesla_Attack_Frame_3
+    originalName: 
+    pivot: {x: 0.5, y: -0.084745765}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 32
+      height: 59
+    spriteID: 690c8d01b2262014b8f3523e44eb0077
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Tesla_Attack_Frame_4
+    originalName: 
+    pivot: {x: 0.5, y: -0.0862069}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 272
+      width: 32
+      height: 58
+    spriteID: 4dc1386e526fbd648b3d95ef374ed767
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 272}
+  - name: Tesla_Attack_Frame_5
+    originalName: 
+    pivot: {x: 0.5, y: -0.0877193}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 404
+      width: 32
+      height: 57
+    spriteID: e0d463e5213e46a47bfd86d1207fc016
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 404}
+  - name: Tesla_Attack_Frame_6
+    originalName: 
+    pivot: {x: 0.5, y: -0.094339624}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 44
+      y: 256
+      width: 32
+      height: 53
+    spriteID: 0ce25c096ec0c314caa7498c7b7a8785
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 44, y: 256}
+  - name: Tesla_Attack_Frame_7
+    originalName: 
+    pivot: {x: 0.5, y: -0.094339624}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 44
+      y: 317
+      width: 32
+      height: 53
+    spriteID: 904aa8548a1aaa243b6a09a37355e39f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 44, y: 317}
+  - name: Tesla_Attack_Frame_8
+    originalName: 
+    pivot: {x: 0.5, y: -0.094339624}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 44
+      y: 378
+      width: 32
+      height: 53
+    spriteID: 0bf31f9fb87132240ba89e9eca9da0db
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 44, y: 378}
+  - name: Tesla_Attack_Frame_9
+    originalName: 
+    pivot: {x: 0.5, y: -0.094339624}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 44
+      y: 439
+      width: 32
+      height: 53
+    spriteID: 954ae256abf593a41958ede536624313
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 44, y: 439}
+  - name: Tesla_Attack_Frame_10
+    originalName: 
+    pivot: {x: 0.5, y: -0.08928572}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 44
+      y: 68
+      width: 32
+      height: 56
+    spriteID: 7589c09cbd9ba5040826a35a8e4bce1f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 44, y: 68}
+  - name: Tesla_Attack_Frame_11
+    originalName: 
+    pivot: {x: 0.5, y: -0.084745765}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 71
+      width: 32
+      height: 59
+    spriteID: e8f6d9f020acdcf4fa4058203a53f04a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 71}
+  - name: Tesla_Attack_Frame_12
+    originalName: 
+    pivot: {x: 0.5, y: -0.0862069}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 338
+      width: 32
+      height: 58
+    spriteID: f980d3f5e8a1b424888bfe14174553eb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 338}
+  - name: Tesla_Attack_Frame_13
+    originalName: 
+    pivot: {x: 0.5, y: -0.084745765}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 138
+      width: 32
+      height: 59
+    spriteID: df532856ae9c9204ab6270a640318169
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 138}
+  - name: Tesla_Attack_Frame_14
+    originalName: 
+    pivot: {x: 0.5, y: -0.084745765}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 205
+      width: 32
+      height: 59
+    spriteID: 427266a35f7afae4baf4ef4d2bd8be57
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 205}
+  - name: Tesla_Attack_Frame_15
+    originalName: 
+    pivot: {x: 0.5, y: -0.094339624}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 84
+      y: 4
+      width: 32
+      height: 53
+    spriteID: 7373a65b6a238c14c906eae03f538599
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 84, y: 4}
+  - name: Tesla_Attack_Frame_16
+    originalName: 
+    pivot: {x: 0.5, y: -0.094339624}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 84
+      y: 65
+      width: 32
+      height: 53
+    spriteID: 5900925cc4015b14b8f54822b54acf5b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 84, y: 65}
+  - name: Tesla_Attack_Frame_17
+    originalName: 
+    pivot: {x: 0.5, y: -0.094339624}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 84
+      y: 126
+      width: 32
+      height: 53
+    spriteID: f491d4afbbbebd2419d54c12410dbcaa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 84, y: 126}
+  - name: Tesla_Attack_Frame_18
+    originalName: 
+    pivot: {x: 0.5, y: -0.094339624}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 84
+      y: 187
+      width: 32
+      height: 53
+    spriteID: 29b0d45be90294545b4d079e1235467c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 84, y: 187}
+  - name: Tesla_Attack_Frame_19
+    originalName: 
+    pivot: {x: 0.5, y: -0.094339624}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 84
+      y: 248
+      width: 32
+      height: 53
+    spriteID: 73a7f51d7d3d4664b8a1c46806a43e08
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 84, y: 248}
+  - name: Tesla_Attack_Frame_20
+    originalName: 
+    pivot: {x: 0.5, y: -0.094339624}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 84
+      y: 309
+      width: 32
+      height: 53
+    spriteID: 3b152c447c3b88a4e9cfc03b5a5e9361
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 84, y: 309}
+  - name: Tesla_Attack_Frame_21
+    originalName: 
+    pivot: {x: 0.5, y: -0.094339624}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 84
+      y: 370
+      width: 32
+      height: 53
+    spriteID: 030e2c2d6144a70468491990ca7848dc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 84, y: 370}
+  - name: Tesla_Attack_Frame_22
+    originalName: 
+    pivot: {x: 0.5, y: -0.094339624}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 84
+      y: 431
+      width: 32
+      height: 53
+    spriteID: 06ee29ce80cd3be4191c3d743b4f7d3d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 84, y: 431}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -1145704738
+    name: Tesla_Attack
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Tesla_Attack_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 0
+        y: 5
+        width: 32
+        height: 53
+      spriteId: bd603ee8b3688bc4eae133e03f94c93d
+    - name: Tesla_Attack_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 0
+        y: 5
+        width: 32
+        height: 56
+      spriteId: 75edc5ace15b48149b45796d64edd506
+    - name: Tesla_Attack_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 0
+        y: 5
+        width: 32
+        height: 55
+      spriteId: a6126fc636e9daa47b67db658130c05e
+    - name: Tesla_Attack_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 0
+        y: 5
+        width: 32
+        height: 59
+      spriteId: 690c8d01b2262014b8f3523e44eb0077
+    - name: Tesla_Attack_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 0
+        y: 5
+        width: 32
+        height: 58
+      spriteId: 4dc1386e526fbd648b3d95ef374ed767
+    - name: Tesla_Attack_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 0
+        y: 5
+        width: 32
+        height: 57
+      spriteId: e0d463e5213e46a47bfd86d1207fc016
+    - name: Tesla_Attack_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 0
+        y: 5
+        width: 32
+        height: 53
+      spriteId: 0ce25c096ec0c314caa7498c7b7a8785
+    - name: Tesla_Attack_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 0
+        y: 5
+        width: 32
+        height: 53
+      spriteId: 904aa8548a1aaa243b6a09a37355e39f
+    - name: Tesla_Attack_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 0
+        y: 5
+        width: 32
+        height: 53
+      spriteId: 0bf31f9fb87132240ba89e9eca9da0db
+    - name: Tesla_Attack_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 0
+        y: 5
+        width: 32
+        height: 53
+      spriteId: 954ae256abf593a41958ede536624313
+    - name: Tesla_Attack_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 0
+        y: 5
+        width: 32
+        height: 56
+      spriteId: 7589c09cbd9ba5040826a35a8e4bce1f
+    - name: Tesla_Attack_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 0
+        y: 5
+        width: 32
+        height: 59
+      spriteId: e8f6d9f020acdcf4fa4058203a53f04a
+    - name: Tesla_Attack_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 0
+        y: 5
+        width: 32
+        height: 58
+      spriteId: f980d3f5e8a1b424888bfe14174553eb
+    - name: Tesla_Attack_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 0
+        y: 5
+        width: 32
+        height: 59
+      spriteId: df532856ae9c9204ab6270a640318169
+    - name: Tesla_Attack_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 0
+        y: 5
+        width: 32
+        height: 59
+      spriteId: 427266a35f7afae4baf4ef4d2bd8be57
+    - name: Tesla_Attack_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 0
+        y: 5
+        width: 32
+        height: 53
+      spriteId: 7373a65b6a238c14c906eae03f538599
+    - name: Tesla_Attack_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 0
+        y: 5
+        width: 32
+        height: 53
+      spriteId: 5900925cc4015b14b8f54822b54acf5b
+    - name: Tesla_Attack_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 0
+        y: 5
+        width: 32
+        height: 53
+      spriteId: f491d4afbbbebd2419d54c12410dbcaa
+    - name: Tesla_Attack_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 0
+        y: 5
+        width: 32
+        height: 53
+      spriteId: 29b0d45be90294545b4d079e1235467c
+    - name: Tesla_Attack_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 0
+        y: 5
+        width: 32
+        height: 53
+      spriteId: 73a7f51d7d3d4664b8a1c46806a43e08
+    - name: Tesla_Attack_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 0
+        y: 5
+        width: 32
+        height: 53
+      spriteId: 3b152c447c3b88a4e9cfc03b5a5e9361
+    - name: Tesla_Attack_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 0
+        y: 5
+        width: 32
+        height: 53
+      spriteId: 030e2c2d6144a70468491990ca7848dc
+    - name: Tesla_Attack_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 0
+        y: 5
+        width: 32
+        height: 53
+      spriteId: 06ee29ce80cd3be4191c3d743b4f7d3d
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 32, y: 64}

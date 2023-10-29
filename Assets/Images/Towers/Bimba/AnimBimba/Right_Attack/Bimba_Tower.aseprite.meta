@@ -1,0 +1,332 @@
+fileFormatVersion: 2
+guid: 06e9d68ece839cd4faed01588efe35c2
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Bimba_Tower_Frame_0
+    originalName: 
+    pivot: {x: 1.6428572, y: -0.6956522}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 53
+      y: 4
+      width: 28
+      height: 69
+    spriteID: e00ed165a2f6fc645ad8a1856009c59d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 53, y: 4}
+  - name: Bimba_Tower_Frame_1
+    originalName: 
+    pivot: {x: 1.6428572, y: -0.6956522}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 53
+      y: 81
+      width: 28
+      height: 69
+    spriteID: 40feeadd33569b14b8880c02e877bd21
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 53, y: 81}
+  - name: Bimba_Tower_Frame_2
+    originalName: 
+    pivot: {x: 1.6428572, y: -0.6315789}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 169
+      width: 28
+      height: 76
+    spriteID: a771e92eb7397b54cb09c5e3bc060ed6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 169}
+  - name: Bimba_Tower_Frame_3
+    originalName: 
+    pivot: {x: 1.3939395, y: -0.6233766}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 84
+      width: 33
+      height: 77
+    spriteID: 506e443bcb0916743b288bec2aa5e53a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 84}
+  - name: Bimba_Tower_Frame_4
+    originalName: 
+    pivot: {x: 1.1219512, y: -0.6666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 41
+      height: 72
+    spriteID: 73054d8b8cc3e2044826d28de94b1e03
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Bimba_Tower_Frame_5
+    originalName: 
+    pivot: {x: 1.6428572, y: -0.8135593}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 53
+      y: 158
+      width: 28
+      height: 59
+    spriteID: d59e23916e42bb34eb2a2b9a5dc9b985
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 53, y: 158}
+  - name: Bimba_Tower_Frame_6
+    originalName: 
+    pivot: {x: 1.6428572, y: -0.8135593}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 89
+      y: 4
+      width: 28
+      height: 59
+    spriteID: 41aa2f959c9c6f84c8256f32431f86bf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 89, y: 4}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -1139764275
+    name: Bimba_Tower
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Bimba_Tower_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 18
+        y: 48
+        width: 28
+        height: 69
+      spriteId: e00ed165a2f6fc645ad8a1856009c59d
+    - name: Bimba_Tower_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 18
+        y: 48
+        width: 28
+        height: 69
+      spriteId: 40feeadd33569b14b8880c02e877bd21
+    - name: Bimba_Tower_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 18
+        y: 48
+        width: 28
+        height: 76
+      spriteId: a771e92eb7397b54cb09c5e3bc060ed6
+    - name: Bimba_Tower_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 18
+        y: 48
+        width: 33
+        height: 77
+      spriteId: 506e443bcb0916743b288bec2aa5e53a
+    - name: Bimba_Tower_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 18
+        y: 48
+        width: 41
+        height: 72
+      spriteId: 73054d8b8cc3e2044826d28de94b1e03
+    - name: Bimba_Tower_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 18
+        y: 48
+        width: 28
+        height: 59
+      spriteId: d59e23916e42bb34eb2a2b9a5dc9b985
+    - name: Bimba_Tower_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 18
+        y: 48
+        width: 28
+        height: 59
+      spriteId: 41aa2f959c9c6f84c8256f32431f86bf
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 128, y: 128}
