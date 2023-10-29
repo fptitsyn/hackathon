@@ -4,16 +4,19 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class SpawnEnemy : MonoBehaviour{
+public class SpawnEnemy : MonoBehaviour
+{
     public GameObject[] waypoints;
-    [SerializeField] Castle castle;
+    [SerializeField] private Castle castle;
     private List<Enemy> _enemies = new List<Enemy>();
+    
     private void OnMouseDown()
     {
         Spawn();
     }
 
-    private void Spawn(){
+    private void Spawn()
+    {
         TabPanel tab = FindObjectOfType<TabPanel>();
         Enemy enemyToSpawn = tab.currentEnemySelected;
         _enemies.Add(enemyToSpawn);
