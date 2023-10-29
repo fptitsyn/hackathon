@@ -505,6 +505,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mainButton: {fileID: 747213966}
+  secondaryButton: {fileID: 0}
 --- !u!82 &747213966
 AudioSource:
   m_ObjectHideFlags: 0
@@ -845,6 +846,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mainButton: {fileID: 1007984026}
+  secondaryButton: {fileID: 0}
 --- !u!114 &1007984028
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -869,6 +871,102 @@ MonoBehaviour:
         - m_Target: {fileID: 1007984027}
           m_TargetAssemblyTypeName: MainMenuButtons, Assembly-CSharp
           m_MethodName: playMainButton
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: -4617820587005737977, guid: aaef39acd4061944fbdb958d0469665f, type: 3}
+          m_TargetAssemblyTypeName: Enemy, Assembly-CSharp
+          m_MethodName: DeletePrefs
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: -4617820587005737977, guid: aaef39acd4061944fbdb958d0469665f, type: 3}
+          m_TargetAssemblyTypeName: Enemy, Assembly-CSharp
+          m_MethodName: StaticUpdate
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: -6092137980363749079, guid: 34e63665479a3bb4ab5f8e481d16277d, type: 3}
+          m_TargetAssemblyTypeName: Enemy, Assembly-CSharp
+          m_MethodName: DeletePrefs
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: -6092137980363749079, guid: 34e63665479a3bb4ab5f8e481d16277d, type: 3}
+          m_TargetAssemblyTypeName: Enemy, Assembly-CSharp
+          m_MethodName: StaticUpdateWolf
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: -8153784511689759302, guid: dd2b327662c29b848a8571110dbfc287, type: 3}
+          m_TargetAssemblyTypeName: Enemy, Assembly-CSharp
+          m_MethodName: DeletePrefs
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: -8153784511689759302, guid: dd2b327662c29b848a8571110dbfc287, type: 3}
+          m_TargetAssemblyTypeName: Enemy, Assembly-CSharp
+          m_MethodName: StaticUpdateGolem
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 3087251486303273588, guid: c7292096eae913a41a2497f51118dc72, type: 3}
+          m_TargetAssemblyTypeName: Enemy, Assembly-CSharp
+          m_MethodName: DeletePrefs
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 3087251486303273588, guid: c7292096eae913a41a2497f51118dc72, type: 3}
+          m_TargetAssemblyTypeName: Enemy, Assembly-CSharp
+          m_MethodName: StaticUpdateGriffin
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -1202,6 +1300,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mainButton: {fileID: 1505183458}
+  secondaryButton: {fileID: 0}
 --- !u!1 &1527032500
 GameObject:
   m_ObjectHideFlags: 0
