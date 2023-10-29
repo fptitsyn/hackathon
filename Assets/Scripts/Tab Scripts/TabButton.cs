@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,10 +6,15 @@ using UnityEngine;
 public class TabButton : MonoBehaviour
 {
     [SerializeField] public Enemy enemy;
-    
+    private TabPanel _tab;
+
+    private void Start()
+    {
+        _tab = GetComponentInParent<TabPanel>();
+    }
+
     public void ChangeCurrentEnemy()
     {
-        TabPanel tab = GetComponentInParent<TabPanel>();
-        tab.currentEnemySelected = enemy;
+        _tab.currentEnemySelected = enemy;
     }
 }
