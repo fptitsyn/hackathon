@@ -2,13 +2,13 @@ using UnityEngine;
 
 public class FollowWaypoints : MonoBehaviour
 {
-    public GameObject[] waypoints;
+    public GameObject[] waypoints = new GameObject[5];
     private int _currentWaypoint;
     [SerializeField] private float distance = 0.01f;
     [SerializeField] public Enemy enemy;
     [SerializeField] public GameObject settings;
 
-    void Update(){
+    void LateUpdate(){
         if (!settings.GetComponent<Level1Script>().isPlayGame)
             return;
         if (Vector2.Distance(transform.position, waypoints[_currentWaypoint].transform.position) < distance)

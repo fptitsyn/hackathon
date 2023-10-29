@@ -18,9 +18,11 @@ public class LevelUpCounter : MonoBehaviour
         
         PlayerPrefs.SetInt(product2, maxZombieHP + 20);
         maxZombieHP = PlayerPrefs.GetInt(product2);
-        
+        int cost = PlayerPrefs.GetInt(product3);
+
         PlayerPrefs.SetInt(product3, cost + 1);
         cost = PlayerPrefs.GetInt(product3);
         
+        PlayerPrefs.SetInt(product3, cost + 1);
     }
 }

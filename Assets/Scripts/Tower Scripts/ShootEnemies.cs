@@ -41,11 +41,11 @@ public class ShootEnemies : MonoBehaviour
                 lastShotTime = Time.time;
             }
 
-            Vector3 direction = gameObject.transform.position - target.transform.position;
-            gameObject.transform.rotation = Quaternion.AngleAxis(
-                Mathf.Atan2(direction.y, direction.x) * 180 / Mathf.PI,
-                new Vector3(0, 0, 1)
-            );
+            // Vector3 direction = gameObject.transform.position - target.transform.position;
+            // gameObject.transform.rotation = Quaternion.AngleAxis(
+            //     Mathf.Atan2(direction.y, direction.x) * 180 / Mathf.PI,
+            //     new Vector3(0, 0, 1)
+            // );
         }
     }
 
