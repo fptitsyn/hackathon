@@ -33,7 +33,7 @@ public class BulletBehaviour : MonoBehaviour
                 HealthBar healthBar = healthBarTransform.gameObject.GetComponent<HealthBar>();
                 healthBar.enemy.currentHP -= Mathf.Max(damage, 0);
 
-                if (gameObject.tag.Equals("Ice"))
+                if (gameObject.tag.Equals("Ice") && healthBar.enemy.speed > 1)
                 {
                     var currentSpeed = healthBar.enemy.speed;
                     healthBar.enemy.speed -= currentSpeed / 2;

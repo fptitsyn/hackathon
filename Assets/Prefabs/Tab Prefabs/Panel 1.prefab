@@ -224,6 +224,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1696093440099436600}
     m_Modifications:
+    - target: {fileID: 3264338759940434296, guid: 4937b8ab85959da4cb3495fd4fd99b7c, type: 3}
+      propertyPath: m_Colors.m_SelectedColor.b
+      value: 0.5939243
+      objectReference: {fileID: 0}
+    - target: {fileID: 3264338759940434296, guid: 4937b8ab85959da4cb3495fd4fd99b7c, type: 3}
+      propertyPath: m_Colors.m_SelectedColor.g
+      value: 0.5939243
+      objectReference: {fileID: 0}
+    - target: {fileID: 3264338759940434296, guid: 4937b8ab85959da4cb3495fd4fd99b7c, type: 3}
+      propertyPath: m_Colors.m_SelectedColor.r
+      value: 0.6132076
+      objectReference: {fileID: 0}
     - target: {fileID: 6707159295263993407, guid: 4937b8ab85959da4cb3495fd4fd99b7c, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -304,6 +316,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8045186205226757991, guid: 4937b8ab85959da4cb3495fd4fd99b7c, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1815567976, guid: 6ad821ef7323ecc4699d0b3d0138ed9e, type: 3}
     - target: {fileID: 8922375482925996829, guid: 4937b8ab85959da4cb3495fd4fd99b7c, type: 3}
       propertyPath: m_Name
       value: Select Button 4
@@ -411,9 +427,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1008401251758454114, guid: 483f04185cfcb0649b90ce1e3a1979b0, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1185193900, guid: e4cc14b553c1c4442beedbec29b539e8, type: 3}
     - target: {fileID: 2068454169959833129, guid: 483f04185cfcb0649b90ce1e3a1979b0, type: 3}
       propertyPath: m_Name
       value: Select Button 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6519750651789485486, guid: 483f04185cfcb0649b90ce1e3a1979b0, type: 3}
+      propertyPath: m_Colors.m_SelectedColor.b
+      value: 0.6121988
+      objectReference: {fileID: 0}
+    - target: {fileID: 6519750651789485486, guid: 483f04185cfcb0649b90ce1e3a1979b0, type: 3}
+      propertyPath: m_Colors.m_SelectedColor.g
+      value: 0.6121988
+      objectReference: {fileID: 0}
+    - target: {fileID: 6519750651789485486, guid: 483f04185cfcb0649b90ce1e3a1979b0, type: 3}
+      propertyPath: m_Colors.m_SelectedColor.r
+      value: 0.6320754
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -438,6 +470,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1696093440099436600}
     m_Modifications:
+    - target: {fileID: 966935809525786519, guid: 0f534576be5327842ad30db3aa5407ad, type: 3}
+      propertyPath: m_Colors.m_SelectedColor.b
+      value: 0.5482378
+      objectReference: {fileID: 0}
+    - target: {fileID: 966935809525786519, guid: 0f534576be5327842ad30db3aa5407ad, type: 3}
+      propertyPath: m_Colors.m_SelectedColor.g
+      value: 0.5482378
+      objectReference: {fileID: 0}
+    - target: {fileID: 966935809525786519, guid: 0f534576be5327842ad30db3aa5407ad, type: 3}
+      propertyPath: m_Colors.m_SelectedColor.r
+      value: 0.5660378
+      objectReference: {fileID: 0}
     - target: {fileID: 1239923951889840282, guid: 0f534576be5327842ad30db3aa5407ad, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -522,6 +566,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Select Button 3
       objectReference: {fileID: 0}
+    - target: {fileID: 5727861548629811814, guid: 0f534576be5327842ad30db3aa5407ad, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 544511afd65b1354eba8c060aa65fda3, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -575,11 +623,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5437461800879287489, guid: fc25962cbe0e678409e70901c4dc80e7, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 200
+      value: 122
       objectReference: {fileID: 0}
     - target: {fileID: 5437461800879287489, guid: fc25962cbe0e678409e70901c4dc80e7, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 50
+      value: 117
       objectReference: {fileID: 0}
     - target: {fileID: 5437461800879287489, guid: fc25962cbe0e678409e70901c4dc80e7, type: 3}
       propertyPath: m_LocalPosition.x
@@ -629,6 +677,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6674548138071123538, guid: fc25962cbe0e678409e70901c4dc80e7, type: 3}
+      propertyPath: m_Colors.m_SelectedColor.b
+      value: 0.5754717
+      objectReference: {fileID: 0}
+    - target: {fileID: 6674548138071123538, guid: fc25962cbe0e678409e70901c4dc80e7, type: 3}
+      propertyPath: m_Colors.m_SelectedColor.g
+      value: 0.5754717
+      objectReference: {fileID: 0}
+    - target: {fileID: 6674548138071123538, guid: fc25962cbe0e678409e70901c4dc80e7, type: 3}
+      propertyPath: m_Colors.m_SelectedColor.r
+      value: 0.5754717
+      objectReference: {fileID: 0}
+    - target: {fileID: 6775813334662292791, guid: fc25962cbe0e678409e70901c4dc80e7, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 4304f61679468bf41994ee068bc78e32, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -652,6 +716,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1696093440099436600}
     m_Modifications:
+    - target: {fileID: 604606372332793107, guid: 8ee3aaea8effbc34fb90cc42c32ae8be, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 783712249575038738, guid: dc8eed0bd626d4a45a54e6404c32899c, type: 3}
+    - target: {fileID: 2157791816904069612, guid: 8ee3aaea8effbc34fb90cc42c32ae8be, type: 3}
+      propertyPath: m_Colors.m_SelectedColor.b
+      value: 0.5775483
+      objectReference: {fileID: 0}
+    - target: {fileID: 2157791816904069612, guid: 8ee3aaea8effbc34fb90cc42c32ae8be, type: 3}
+      propertyPath: m_Colors.m_SelectedColor.g
+      value: 0.5775483
+      objectReference: {fileID: 0}
+    - target: {fileID: 2157791816904069612, guid: 8ee3aaea8effbc34fb90cc42c32ae8be, type: 3}
+      propertyPath: m_Colors.m_SelectedColor.r
+      value: 0.5849056
+      objectReference: {fileID: 0}
     - target: {fileID: 2376149138579166106, guid: 8ee3aaea8effbc34fb90cc42c32ae8be, type: 3}
       propertyPath: m_Name
       value: Select Button 2

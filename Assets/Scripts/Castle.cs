@@ -8,9 +8,24 @@ public class Castle : MonoBehaviour{
     [SerializeField] public int hp = 5;
     [SerializeField] TMP_Text textValueHP;
 
-    private void Update(){
+    private SpawnEnemy _spawner;
+    
+    private void Start()
+    {
+        _spawner = FindObjectOfType<SpawnEnemy>();
+    }
+    private void Update()
+    {
         textValueHP.text = hp.ToString();
         if (hp <= 0)
-            SceneManager.LoadScene(2);
+            SceneManager.LoadScene(1);
+        if (_spawner.isStarted)
+        {
+            var enemies = GameObject.FindGameObjectsWithTag("Enemy");
+            if (enemies.Length == 0)
+            {
+                SceneManager.LoadScene(7);
+            }   
+        }
     }
 }

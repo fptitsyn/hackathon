@@ -1,5 +1,5 @@
 using System.Collections.Generic;
-using Unity.VisualScripting;
+using TMPro;
 using UnityEngine;
 
 public class SpawnEnemy : MonoBehaviour
@@ -8,6 +8,8 @@ public class SpawnEnemy : MonoBehaviour
     [SerializeField] private GameObject settings;
     private List<Enemy> _enemies = new List<Enemy>();
     [SerializeField] Castle castle;
+    [SerializeField] private TMP_Text enemyCountText;
+    
     public bool isStarted;
     
     private void OnMouseDown() => Spawn();
@@ -16,19 +18,20 @@ public class SpawnEnemy : MonoBehaviour
     {
         TabPanel tab = FindObjectOfType<TabPanel>();
         Enemy enemyToSpawn = tab.currentEnemySelected;
-        Enemy enemy = Instantiate(enemyToSpawn, transform.position, transform.rotation);
-        enemy.GetComponent<FollowWaypoints>().waypoints = waypoints;
-        enemy.GetComponent<FollowWaypoints>().castle = castle;
-        _enemies.Add(enemy);
+        if (_enemies.Count < 3)
+        {
+            Enemy enemy = Instantiate(enemyToSpawn, transform.position, transform.rotation);
+            enemy.GetComponent<FollowWaypoints>().waypoints = waypoints;
+            enemy.GetComponent<FollowWaypoints>().castle = castle;
+            _enemies.Add(enemy);
+            enemyCountText.text = _enemies.Count.ToString();
+        }
     }
 
     public void MoveEnemies()
     {
         isStarted = true;
-        // foreach (var enemy in _enemies)
-        // {
-        //     enemy.GetComponent<FollowWaypoints>().waypoints = waypoints;
-        //     enemy.GetComponent<FollowWaypoints>().castle = castle;
-        // }
+        enemyCountText.gameObject.SetActive(false);
+        gameObject.SetActive(false);
     }
 }
